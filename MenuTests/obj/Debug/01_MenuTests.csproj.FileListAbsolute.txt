@@ -1,0 +1,16 @@
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\MenuTests.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\MenuTests.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\01_ClassLibrary.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\01_ClassLibrary.pdb
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\obj\Debug\01_MenuTests.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\obj\Debug\01_MenuTests.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\obj\Debug\01_MenuTests.csproj.CopyComplete
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\obj\Debug\MenuTests.dll
+C:\ElevenFiftyProjects\GoldBadgeChallenges\MenuTests\obj\Debug\MenuTests.pdb
