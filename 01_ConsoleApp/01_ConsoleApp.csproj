@@ -7,7 +7,7 @@
     <ProjectGuid>{702D511F-EFED-4150-BF57-C7CCD57395C5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_01_ConsoleApp</RootNamespace>
-    <AssemblyName>_01_ConsoleApp</AssemblyName>
+    <AssemblyName>01_ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
