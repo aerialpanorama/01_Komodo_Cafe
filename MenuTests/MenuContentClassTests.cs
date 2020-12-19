@@ -55,6 +55,10 @@ namespace MenuTests
             //TestInitialize
 
             MenuRepositoryClass = newContent = new MenuRepositoryClass("2", "Huevos Rancheros", "Eggs served in the style of the traditional large mid-morning fare on rural Mexican farms", "Black beans, feta cheese, corn tortillas, hot sauce, olive oil", 6.99, MealType.Breakfast);
+            
+            //Act
+
+            bool updateResult = _repo.UpdateExistingContent(3)
 
         }
     }
