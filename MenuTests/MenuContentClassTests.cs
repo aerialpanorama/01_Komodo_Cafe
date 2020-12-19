@@ -22,7 +22,7 @@ namespace MenuTests
 
             _repo.AddContentToList(_content);
 
-            
+
 
 
 
@@ -41,7 +41,7 @@ namespace MenuTests
             repository.AddContentToList(content);
             MenuRepositoryClass contentFromDirectory = repository.GetContentByMealNumber("1");
 
-           // Assert
+            // Assert
             Assert.IsNotNull(contentFromDirectory);
 
         }
@@ -52,14 +52,53 @@ namespace MenuTests
         public void UpdateExistingContent_ShouldReturnTrue()
         {
             //Arrange
-            //TestInitialize
+            //TestInitialize - Already have
 
-            MenuRepositoryClass = newContent = new MenuRepositoryClass("2", "Huevos Rancheros", "Eggs served in the style of the traditional large mid-morning fare on rural Mexican farms", "Black beans, feta cheese, corn tortillas, hot sauce, olive oil", 6.99, MealType.Breakfast);
-            
+            MenuRepositoryClass newContent = new MenuRepositoryClass("2", "Huevos Rancheros", "Eggs served in the style of the traditional large mid-morning fare on rural Mexican farms", "Black beans, feta cheese, corn tortillas, spicy sauce, olive oil", 7.99, MealType.Breakfast);
+
             //Act
 
-            bool updateResult = _repo.UpdateExistingContent(3)
+            bool updateResult = _repo.UpdateExistingContent("2", newContent);
+
+            // Assert
+            Assert.IsTrue(updateResult);
+
 
         }
+
+        [TestMethod]
+        [DataRow("2", true)]
+        [DataRow("1", false)]
+
+        public void UpdateExistingContent_ShouldMatchGivenbool(string originalMealNumber, bool shouldUpdate)
+        {
+
+            //Arrange
+            //TestInitialize - Already have
+
+            MenuRepositoryClass newContent = new MenuRepositoryClass("2", "Huevos Rancheros", "Eggs served in the style of the traditional large mid-morning fare on rural Mexican farms", "Black beans, feta cheese, corn tortillas, spicy sauce, olive oil", 7.99, MealType.Breakfast);
+
+            //Act
+
+            bool updateResult = _repo.UpdateExistingContent("2", newContent);
+
+            // Assert
+            Assert.IsTrue(updateResult);
+        }
+
+        [TestMethod]
+
+        public void DeleteContent_ShouldReturnTrue()
+        { 
+
+            //arrange
+
+        //act
+
+        bool deleteResult = _repo.RemoveContentFromList(_content.MealNumber);
+
+        //assert
+        Assert.IsTrue(deleteResult);
+            }
     }
 }
